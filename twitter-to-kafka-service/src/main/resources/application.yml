@@ -1,0 +1,6 @@
+spring:
+  config:
+    import: configserver:http://localhost:8888
+  cloud:
+    config:
+      name: config-client-twitter_to_kafka,config-client

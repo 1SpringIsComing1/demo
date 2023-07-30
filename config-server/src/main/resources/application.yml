@@ -1,6 +1,20 @@
 server:
   port: 8888
 
+spring:
+  profiles:
+    active: native
+#  cloud:
+#    config:
+#      server:
+#        git:
+#          uri: https://github.com/1SpringIsComing1/config-server-repository
+#          default-label: master
+#          username: 1SpringIsComing1
+#          password: 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
+#          clone-on-start: true
+#      name: config-client-twitter_to_kafka
+
 logging:
   level:
     ROOT: INFO
