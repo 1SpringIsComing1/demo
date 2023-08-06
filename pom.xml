@@ -108,6 +108,11 @@
                 <version>${project.version}</version>
             </dependency>
             <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-loadbalancer</artifactId>
+                <version>${spring-cloud.version}</version>
+            </dependency>
+            <dependency>
                 <groupId>com.microservices.demo</groupId>
                 <artifactId>common-util</artifactId>
                 <version>${project.version}</version>
