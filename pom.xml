@@ -108,6 +108,16 @@
                 <version>${project.version}</version>
             </dependency>
             <dependency>
+                <groupId>com.microservices.demo</groupId>
+                <artifactId>elastic-query-web-client-common</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.microservices.demo</groupId>
+                <artifactId>elastic-query-service-common</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-loadbalancer</artifactId>
                 <version>${spring-cloud.version}</version>
